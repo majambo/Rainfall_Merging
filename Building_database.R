@@ -27,11 +27,7 @@ melt.bwb1<-melt.bwb %>%
     )
   )
 
-
-
-
 r <- melt.bwb2[,c(2:5,7:9)]
-arrange.vars(Master_Station_Dekads_June2021 <- , c("LAT"=3,"LON"=2,"Month"=5,"dekade"=6))
 r2 <- arrange.vars(r, c("STATION.ID"=1,"LONG"=2,"LAT"=3,"Month"=5,"dekade"=6))
 
 r3 <- r2 %>% 
